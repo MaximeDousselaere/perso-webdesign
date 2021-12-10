@@ -39,3 +39,16 @@
                         "zoom-in",
                         "zoom-out"
                     ]
+    var bodi = document.getElementById("b");
+
+    main();
+
+    function main(){
+        interval = setInterval(function(){
+            changeCursor();  
+        }, 100);
+    }
+
+    function changeCursor(){
+        bodi.setAttribute("style", "cursor:"+listCursors[Math.floor(Math.random() * listCursors.length)])
+    }
