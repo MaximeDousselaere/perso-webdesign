@@ -18,6 +18,20 @@ body{
     
 }
 
+button.btn{
+    position:relative;
+    margin:0px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0);
+    border:none;
+    cursor:normal;
+}
+
 div.container{
     text-align:center;
     position: absolute; 
