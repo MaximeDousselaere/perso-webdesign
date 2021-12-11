@@ -8,6 +8,7 @@ html{
     height:100%;
     overflow-x:hidden;
     overflow-y:hidden;
+    text-decoration:none;
 }
 
 body{
@@ -29,7 +30,7 @@ button.btn{
     height: 100%;
     background-color:rgba(0, 0, 0, 0);
     border:none;
-    cursor:normal;
+    cursor:default;
 }
 
 div.container{
@@ -45,6 +46,10 @@ span.hello-world{
     font-size:75px;
     font-weight: bold;
     animation : resizemdr 10s ease-out 0s infinite alternate none;
+}
+
+span:hover{
+    cursor:default;
 }
 
 @keyframes resizemdr{ from {font-size:75px;} to {font-size:100px;}}
