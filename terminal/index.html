@@ -13,10 +13,10 @@
                 <span style="margin-left:5px">Terminal</span>
             </div>
             <div class="cmd-content">
-                <textarea readonly="true"></textarea>
+                <textarea readonly="true" id="output"></textarea>
             </div>
             <div class="cmd-footer">
-                footer
+               <span class="beforeInput">></span> <input type="text" id="input" placeholder="Type your text here..." onKeyPress="if (event.keyCode == 13) writeCMD()"/>
             </div>
         </div>
 

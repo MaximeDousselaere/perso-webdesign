@@ -27,7 +27,6 @@ div.cmd{
 }
 
 div.cmd-header{
-    border-bottom:3px solid black;
     font-size:21px;
     color:#000000;
     background-color:#ffffff;
@@ -39,9 +38,16 @@ div.cmd-content{
 }
 
 div.cmd-content textarea{
-    height: 600px;
+    height: 95%;
+    width:95%;
     font-size:21px;
-    background-color:#aeaeae;
+    background-color:#0c0c0c;
+    border:none;
+    resize: none;
+    border:none;
+    outline: none;
+    color:#ffffff;
+    padding:10px;
 }
 
 div.cmd-content textarea:active{
@@ -52,4 +58,20 @@ div.cmd-content textarea:active{
 div.cmd-footer{
     border-top:3px solid black;
     font-size:21px;
+    margin-bottom:5px;
+}
+
+input{
+    font-size:21px;
+    border:none;
+    outline: none;
+    color:#ffffff;
+    background-color:#0c0c0c;
+
+}
+
+span.beforeInput{
+    font-size:21px;
+    color:#ffffff;
+    margin-left:10px;
 }
